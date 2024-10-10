@@ -1,0 +1,135 @@
+* {
+    font-family: 'Inter';
+}
+
+.main {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+    padding: 0 12px;
+    margin: 0 60px;
+
+}
+
+.city1,
+.city2,
+.city3,
+.city4,
+.city5 {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+}
+
+
+.city1,
+.city2,
+.city3,
+.city4 {
+    height: 280px;
+    width: 380px;
+
+}
+
+.city5 {
+    height: 280px;
+    width: 790px;
+
+}
+
+.city1,
+.city2,
+.city3,
+.city4>.the_image {
+    height: 280px;
+    width: 380px;
+}
+
+
+.city5>.the_image {
+
+    height: 280px;
+    width: 790px;
+}
+
+.the_image {
+
+    border-radius: 5%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.pincode {
+    background-color: rgb(16, 29, 107);
+    /*div color*/
+    border: 4px solid rgba(255, 255, 255, 0.9);
+    /*border color*/
+    border-radius: 10%;
+    text-align: center;
+    display: flex;
+    height: 18px;
+    width: 70px;
+    font-size: 13px;
+    position: relative;
+    bottom: 240px;
+    left: 10px;
+    padding: 4px;
+
+}
+
+.pincode .p {
+
+    color: white;
+
+
+}
+
+.pincode span {
+
+    color: rgb(77, 183, 254);
+
+}
+
+
+.city_detail {
+    height: 31.9px;
+    width: 37.9px;
+    font-size: 22px;
+    color: white;
+    z-index: 1;
+    position: relative;
+    bottom: 130px;
+    left: 20px;
+}
+
+.city_detail :hover {
+    color: rgb(77, 183, 254);
+
+}
+
+.underline {
+    height: 2px;
+    width: 35px;
+    background-color: rgb(77, 183, 254);
+    display: flex;
+    position: relative;
+    bottom: 25px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    bottom: 155px;
+    color: white;
+    font-size: 12px;
+}
+

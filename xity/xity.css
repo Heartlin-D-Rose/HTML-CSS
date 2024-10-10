@@ -1,0 +1,17 @@
+.bg1{
+    background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%), url('Mumbai.jpg');
+}   
+
+
+.shrunk{
+    height: 280px;
+    width: 360px;
+    border-radius: 10px;
+}
+
+.foot{
+    display: flex;
+    justify-content: flex-start;
+    align-items: space-between;
+
+}

@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', 'Raleway';
+}
+
+body {
+    padding: 0 12px;
+    margin: 0 75px;
+    position: absolute;
+    background-color: #f6f6f6;
+}
+
+.header {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.visible_head {
+    position: relative;
+    top: -33px;
+    left: 290px;
+    font-size: 34px;
+    font-family: 'Inter';
+    color: rgb(105, 120, 145);
+    font-weight: 1000;
+    z-index: 1;
+
+}
+
+.hidden_head {
+    position: relative;
+    right: 140px;
+    font-size: 64px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-weight: 900;
+    letter-spacing: -2px;
+    opacity: 0.18;
+    color: rgb(109, 182, 253);
+    z-index: -1;
+
+}
+
+.head_underline {
+    position: relative;
+    top: 70px;
+    right: 410px;
+    border-radius: 10px;
+    height: 3px;
+    width: 50px;
+    background-color: rgb(16, 29, 107);
+    margin: 0px 0px 0px -25px;
+
+}
+
+.main {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0 12px;
+    margin: 0 60px;
+}
+
+.shrunk {
+
+    height: 280px;
+    width: 380px;
+    flex-basis: 380px;
+    flex-grow: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    margin: 15px;
+    background-repeat: stretch;
+    background-size: cover;
+
+
+
+}
+
+.expanded {
+
+    height: 280px;
+    width: 380px;
+    flex-basis: 790px;
+    flex-grow: 2;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    margin: 15px;
+    background-repeat: stretch;
+    background-size: cover;
+
+
+}
+
+.hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.shrunk :hover .bg1{
+    background-size: 120%;
+}
+
+.bg1 {
+
+    background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%), url('Mumbai.jpg');
+
+}
+
+
+
+.bg2 {
+
+    background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%), url('Pondy.jpg');
+}
+
+.bg3 {
+
+    background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%), url('Banglore.jpg');
+}
+
+.bg4 {
+
+    background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%), url('Coimbatore.jpg');
+}
+
+.bg5 {
+
+    background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%), url('Chennai.jpg');
+}
+
+.city_detail>h3 {
+
+    height: 32px;
+    width: 38px;
+    font-size: 22px;
+    color: white;
+    z-index: 1;
+    position: relative;
+    top: 140px;
+    left: 10px;
+}
+
+.city_detail :hover {
+    color: rgb(77, 183, 254);
+
+}
+
+.underline {
+    height: 2px;
+    width: 35px;
+    background-color: rgb(77, 183, 254);
+    display: flex;
+    position: relative;
+    top: 115px;
+    left: 10px;
+}
+
+
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.7);
+    top: 110px;
+    font-size: 12px;
+    transition-timing-function: ease;
+
+}
+
+.main :hover .foot {
+    color: white;
+}
+
+.button_parent {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.button {
+    width: 150px;
+    padding: 10px 5px 10px 5px;
+    background-color: rgb(16, 29, 107);
+    border-radius: 4px;
+    font-size: 12px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 120px;
+}
+
+a {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+
+}
+
+a>span {
+    color: rgb(109, 182, 253);
+    padding: 5px;
+}
+
+.button_parent>.button :hover {
+
+    background-color: rgb(109, 182, 253);
+    color: white;
+}
+
+.pincode {
+    background-color: rgb(16, 29, 107);
+    /*div color*/
+    outline: 4px solid rgba(255, 255, 255, 0.2);
+    /*border color*/
+    border-radius: 5%;
+    height: 35px;
+    width: 100px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    padding: 8px 16px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pincode>p {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pincode>p>span {
+    color: rgb(109, 182, 253);
+}
+
+
+.btn_hover{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_hover:hover{
+    background-color: lightblue;
+}
