@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.card:hover .imgrad{
+  border-radius: 0% ;
+}
+
+.image{
+    height: 200px;
+    width: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 18px;
+}
+
+.imgrad{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.icons{
+    position: relative;
+}
+.mute, .cc{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mute{
+    position: relative;
+    bottom: 40px;
+    right: 40px;
+}
+
+.cc{
+    position: relative;
+    bottom: 35px;
+    right: 40px;
+}
+
+.time{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 18px;
+    width: 30.47px;
+    font-size: 10px;
+    margin: 0%;
+    border-radius: 10%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    top: 45px;
+    right: 40px;
+}
+
+.heading{
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   position: relative;
+}
+
+.logo_image{
+    position: relative;
+}
+
+.logo_image > img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.video_title{
+   position: relative;
+   left: 5px;
+   
+}
+
+.video_title > h3{
+    font-size: 1.17em;
+    margin: 0%;
+}
+
+.menu{
+    position: relative;
+    left: 30px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+
+}
+
+.info > .channel_name{
+    bottom: 25px;
+    position: relative;
+    left: 42px;
+}
+
+.info > .view_data{
+    bottom: 40px;
+    position: relative;
+    left: 42px;
+}
+
+.channel_name{
+   display: flex;
+   position: relative;
+   height: 20px;
+   width: 97.47px;
+   color: #737373;
+}
+
+.tick{
+    height: 14px;
+    width: 14px;
+    position: inherit;
+    left: 5px;
+}
+
+.view_data{
+    color: #737373;
+   
+    position: relative;
+    left: 42px;
+}
+
+.view{
+    height:20px;
+    width: 71.16px;
+    font-size: 14px;
+}
+
+.view_time{
+    height:20px;
+    width: 86.34px;
+    font-size: 14px;
+}
